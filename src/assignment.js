@@ -32,7 +32,7 @@ function countEvenNumbers(arrayOfNumbers) {
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     if(typeof arrayOfNumbers[i] == 'number'){
       if (arrayOfNumbers[i] % 2 === 0){ 
-        sum = (sum + arrayOfNumbers[i]);
+        sum = sum + 1;
       }
     }
     
